@@ -1,0 +1,12 @@
+@import'variables';
+@import'header';
+@import'portafolio';
+
+
+footer div a {
+  color: $primary-color;
+
+  &:hover {
+    color: $secondary-color;
+  }
+}

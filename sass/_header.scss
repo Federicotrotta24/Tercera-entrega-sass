@@ -1,0 +1,22 @@
+header {
+    background: url(../img/home2.jpg);
+    background-size: cover;
+    height: 100vh;
+  
+    & h1 span {
+      color: $secondary-color;
+    }
+  
+    h1 .seo {
+      display: none;
+    }
+  }
+  
+  .btn-hero {
+    background-color: $secondary-color;
+  }
+  
+  #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: $secondary-color;
+  }
+  
