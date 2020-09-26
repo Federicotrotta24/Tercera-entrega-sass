@@ -10,3 +10,24 @@ footer div a {
     color: $secondary-color;
   }
 }
+
+@mixin coment-about($fondo, $letra, $estilo){
+  background-color: $fondo;
+  color: $letra;
+  font-style: $estilo;
+  
+}
+#comentarios{
+  @include coment-about(#343a40,#ffffff80 ,italic); }
+
+#about{
+  @include coment-about(#343a40,#ffffff80 , bold); 
+}
+#pie{
+  @include coment-about(#343a40,#ffffff80 , italic);
+}
+
+
+.scrolled{
+  background-color: #ffffff;
+}

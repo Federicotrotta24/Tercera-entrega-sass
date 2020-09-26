@@ -76,3 +76,9 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+
+// nav scroll
+
+ $(window).scroll(function(){
+ $('nav').toggleClass('scrolled', $(this).scrollTop() > 10);
+ });
