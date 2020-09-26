@@ -17,14 +17,11 @@ footer div a {
   font-style: $estilo;
   
 }
-#comentarios{
+#comentarios, #pie {
   @include coment-about(#343a40,#ffffff80 ,italic); }
 
 #about{
   @include coment-about(#343a40,#ffffff80 , bold); 
-}
-#pie{
-  @include coment-about(#343a40,#ffffff80 , italic);
 }
 
 

@@ -107,7 +107,7 @@ footer div a:hover {
   color: #ffae1a;
 }
 
-#comentarios {
+#comentarios, #pie {
   background-color: #343a40;
   color: #ffffff80;
   font-style: italic;
@@ -117,12 +117,6 @@ footer div a:hover {
   background-color: #343a40;
   color: #ffffff80;
   font-style: bold;
-}
-
-#pie {
-  background-color: #343a40;
-  color: #ffffff80;
-  font-style: italic;
 }
 
 .scrolled {
