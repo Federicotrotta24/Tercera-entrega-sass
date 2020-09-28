@@ -20,6 +20,10 @@ header h1 .seo {
   color: #ffae1a;
 }
 
+#portfolio h3 {
+  margin-top: 3.2rem;
+}
+
 #portfolio {
   margin-bottom: 150px;
 }
@@ -121,5 +125,13 @@ footer div a:hover {
 
 .scrolled {
   background-color: #ffffff;
+}
+
+#comentarios h2 {
+  margin-top: 3rem;
+}
+
+#comentarios i {
+  margin-bottom: 5rem;
 }
 /*# sourceMappingURL=main.css.map */
