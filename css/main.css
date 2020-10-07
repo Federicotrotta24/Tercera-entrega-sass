@@ -42,7 +42,7 @@ header h1 .seo {
   display: flex;
   height: 100%;
   width: 100%;
-  background-color: rgba(33, 37, 41, 0.2);
+  background-color: rgba(33, 37, 41, 0.6);
   position: absolute;
   top: 0;
   bottom: 0;
@@ -97,10 +97,15 @@ header h1 .seo {
     clip-path: inset(2rem);
   }
   .portfolio-item:hover .caption {
-    background-color: rgba(29, 128, 159, 0.9);
+    background-color: rgba(255, 174, 26, 0.5);
     -webkit-clip-path: inset(2rem);
-    clip-path: inset(2rem);
+            clip-path: inset(2rem);
   }
+}
+
+#mascara {
+  max-width: 700px;
+  max-height: 467px;
 }
 
 footer div a {
