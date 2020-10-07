@@ -42,7 +42,7 @@ header h1 .seo {
   display: flex;
   height: 100%;
   width: 100%;
-  background-color: rgba(33, 37, 41, 0.6);
+  background-color: rgba(69, 74, 80, 0.6);
   position: absolute;
   top: 0;
   bottom: 0;
@@ -100,6 +100,13 @@ header h1 .seo {
     background-color: rgba(255, 174, 26, 0.5);
     -webkit-clip-path: inset(2rem);
             clip-path: inset(2rem);
+  }
+  .portfolio-item .caption .h2 {
+    color: #fff;
+  }
+  .portfolio-item:hover .caption .h2 {
+    color: #273036;
+    text-decoration: underline;
   }
 }
 

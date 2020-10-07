@@ -22,7 +22,7 @@
       display: flex;
       height: 100%;
       width: 100%;
-      background-color: rgba(33, 37, 41, 0.6);
+      background-color: rgba(69, 74, 80, 0.6);
       position: absolute;
       top: 0;
       bottom: 0;
@@ -78,6 +78,14 @@
       &:hover .caption {
         background-color: rgba(255, 174, 26, 0.5); 
         clip-path: inset(2rem);
+      }
+      & .caption .h2{
+        color: #fff;
+        
+      }
+      &:hover .caption .h2{
+        color: $primary-color;
+        text-decoration: underline;
       }
     }
   }
