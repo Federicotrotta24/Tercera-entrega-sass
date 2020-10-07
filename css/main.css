@@ -97,7 +97,7 @@ header h1 .seo {
     clip-path: inset(2rem);
   }
   .portfolio-item:hover .caption {
-    background-color: rgba(255, 174, 26, 0.5);
+    background-color: rgba(255, 174, 26, 0.7);
     -webkit-clip-path: inset(2rem);
             clip-path: inset(2rem);
   }
